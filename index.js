@@ -24,16 +24,12 @@ app.get('/scrape', function(req, res){
 
             // Finally, we'll define the variables we're going to capture
             var repositoriesp1, title, description, timeline, techstack;
-            $('#js-pjax-container').filter(function(){
+            repositoriesPage1 = $('#js-pjax-container').children().last().html();
 
-                // Let's store the data we filter into a variable so we can easily see what's going on.
-     
-                     var data = $(this);
-                     repositoriesPage1 = data.children().last().html();
-                     
+                
             var json = { title : "", release : "", rating : ""};
             res.send(repositoriesPage1);
-            });
+        
             
 
             
