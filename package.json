@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "node scraper to scrape github repo page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavkapoorr/node-scraper.git"
+  },
+  "keywords": [
+    "node",
+    "github",
+    "scraper"
+  ],
+  "author": "Pranav Kapoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranavkapoorr/node-scraper/issues"
+  },
+  "homepage": "https://github.com/pranavkapoorr/node-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
